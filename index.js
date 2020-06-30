@@ -3,6 +3,7 @@
  sideNav.addEventListener('mouseover',openNav);
 
 function openNav(e){
+
     document.getElementById("mySidenav").style.width= "200px";
     document.querySelector('.main').style.marginLeft="200px";
     document.getElementById('.layout');
@@ -57,7 +58,7 @@ function getMore(e){
 function myToggle(e){
      e.preventDefault();
      if(toggleBtn){
-        const element = document.body;
+        const element = document.querySelector('.main');
         element.classList.toggle('dark-mode');
         // myButton.style.backgroundColor="#fff";
         // myButton.style.color="#000";

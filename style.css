@@ -486,6 +486,10 @@ color: #0A0B5B;
     flex-direction: column;
     text-align: center;
 }
+.layout{
+    width: 100px;
+    text-align:center;
+}
 
 .main_title{
     color:#0A0B5B;
@@ -592,7 +596,7 @@ ul{
 li{
     width: 30%;
     padding:5px;
-    margin: auto;
+    margin-left: 150px;
     font-size: 1em;
     padding-left: 10px;
 
